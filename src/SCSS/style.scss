@@ -1,0 +1,236 @@
+// Variables
+$navy: #17252A;
+$darkteal: #2b7a78;
+$lightteal: #3aafa9;
+$lightblue: #DEF2F1;
+$offwhite: #FEFFFF;
+// Styles
+// Global
+body {
+    font-family: Raleway;
+    h3 {
+        padding-top: 25px;
+    }
+}
+
+// Specific
+#home {
+    .mainNavbar {
+        background-color: $navy;
+        color: $offwhite;
+    }
+    .header-span {
+        color: $lightteal;
+    }
+    img {
+        height: 50px;
+        width: 50px;
+    }
+    .menu {
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+}
+
+#showcase {
+    background-color: $lightblue;
+    padding: 75px 0;
+    margin: 50px 0 0 0;
+    h1 {
+        color: $darkteal;
+    }
+    img {
+        height: 175px;
+        width: 175px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+#social {
+    background-color: $navy;
+    color: $offwhite;
+    .icon-row {
+        font-size: 48px;
+        color: $lightteal;
+        display: block;
+        text-align: center;
+        .list-inline {
+            margin: auto;
+            a:link {
+                color: $lightblue;
+            }
+            a:visited {
+                color: $lightteal;
+            }
+        }
+    }
+}
+
+#about {
+    background-color: $lightblue;
+    color: $darkteal;
+    img {
+        height: 200px;
+        width: 200px;
+        overflow: hidden;
+    }
+}
+
+#services {
+    background-color: $navy;
+    color: $offwhite;
+    hr {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    }
+    .card {
+        background-color: $lightteal;
+        img {
+            height: 250px;
+            width: 250px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+#blog {
+    background-color: $lightblue;
+    color: $darkteal;
+    .icon-row {
+        font-size: 48px;
+        color: $navy;
+        display: block;
+        text-align: center;
+        .list-inline {
+            margin: auto;
+            a:link {
+                color: $lightblue;
+            }
+            a:visited {
+                color: $lightteal;
+            }
+        }
+    }
+}
+
+#portfolio {
+    background-color: $navy;
+    color: $offwhite;
+    h3 {
+        text-align: center;
+    }
+    .fa {
+        font-size: 100px;
+        color: $lightteal;
+        margin: auto;
+        padding: auto;
+    }
+    a:hover {
+        color: $darkteal;
+    }
+    a:link {
+        color: $lightblue;
+        text-decoration: none;
+    }
+    a:visited {
+        color: $lightteal;
+        text-decoration: none;
+    }
+}
+
+#contact {
+    .contact-card {
+        opacity: 0.98;
+        min-height: 140px;
+    }
+    .contact-card img {
+        left: 0;
+        max-height: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 15;
+    }
+    .contact-card-block {
+        left: 0;
+        padding: 0 30px 0 175px;
+        position: absolute;
+        top: 0;
+        z-index: 20;
+    }
+    .workwithus {
+        background-color: $darkteal;
+    }
+    .email {
+        background-color: $lightteal;
+        a:link {
+            color: $navy;
+        }
+        a:visited {
+            color: $darkteal;
+        }
+    }
+}
+
+#footer {
+    background-color: $navy;
+    color: $offwhite;
+    img {
+        height: 5em;
+        width: 5em;
+    }
+    .lead {
+        font-size: 1.5em;
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .icon-row {
+        font-size: 2em;
+        color: $lightteal;
+        display: block;
+        .list-inline {
+            margin: auto;
+            a:link {
+                color: $lightblue;
+            }
+            a:visited {
+                color: $lightteal;
+            }
+        }
+    }
+}
+
+.contact-card {
+    opacity: 0.98;
+    min-height: 140px;
+}
+
+.contact-card img {
+    left: 0;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 15;
+}
+
+.contact-card-block {
+    left: 0;
+    padding: 0 30px 0 175px;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+}
+
+// @media (max-width: 1199px) and (min-width: 991px){
+//  }
+//  @media (max-width: 450px){
+//  }
+//  @media (max-width: 500px) {
+//  }

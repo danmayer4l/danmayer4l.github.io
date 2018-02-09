@@ -1,0 +1,175 @@
+body {
+  font-family: Raleway; }
+  body h3 {
+    padding-top: 25px; }
+
+#home .mainNavbar {
+  background-color: #17252A;
+  color: #FEFFFF; }
+
+#home .header-span {
+  color: #3aafa9; }
+
+#home img {
+  height: 50px;
+  width: 50px; }
+
+#home .menu {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+#showcase {
+  background-color: #DEF2F1;
+  padding: 75px 0;
+  margin: 50px 0 0 0; }
+  #showcase h1 {
+    color: #2b7a78; }
+  #showcase img {
+    height: 175px;
+    width: 175px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+#social {
+  background-color: #17252A;
+  color: #FEFFFF; }
+  #social .icon-row {
+    font-size: 48px;
+    color: #3aafa9;
+    display: block;
+    text-align: center; }
+    #social .icon-row .list-inline {
+      margin: auto; }
+      #social .icon-row .list-inline a:link {
+        color: #DEF2F1; }
+      #social .icon-row .list-inline a:visited {
+        color: #3aafa9; }
+
+#about {
+  background-color: #DEF2F1;
+  color: #2b7a78; }
+  #about img {
+    height: 200px;
+    width: 200px;
+    overflow: hidden; }
+
+#services {
+  background-color: #17252A;
+  color: #FEFFFF; }
+  #services hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0)); }
+  #services .card {
+    background-color: #3aafa9; }
+    #services .card img {
+      height: 250px;
+      width: 250px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+
+#blog {
+  background-color: #DEF2F1;
+  color: #2b7a78; }
+  #blog .icon-row {
+    font-size: 48px;
+    color: #17252A;
+    display: block;
+    text-align: center; }
+    #blog .icon-row .list-inline {
+      margin: auto; }
+      #blog .icon-row .list-inline a:link {
+        color: #DEF2F1; }
+      #blog .icon-row .list-inline a:visited {
+        color: #3aafa9; }
+
+#portfolio {
+  background-color: #17252A;
+  color: #FEFFFF; }
+  #portfolio h3 {
+    text-align: center; }
+  #portfolio .fa {
+    font-size: 100px;
+    color: #3aafa9;
+    margin: auto;
+    padding: auto; }
+  #portfolio a:hover {
+    color: #2b7a78; }
+  #portfolio a:link {
+    color: #DEF2F1;
+    text-decoration: none; }
+  #portfolio a:visited {
+    color: #3aafa9;
+    text-decoration: none; }
+
+#contact .contact-card {
+  opacity: 0.98;
+  min-height: 140px; }
+
+#contact .contact-card img {
+  left: 0;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 15; }
+
+#contact .contact-card-block {
+  left: 0;
+  padding: 0 30px 0 175px;
+  position: absolute;
+  top: 0;
+  z-index: 20; }
+
+#contact .workwithus {
+  background-color: #2b7a78; }
+
+#contact .email {
+  background-color: #3aafa9; }
+  #contact .email a:link {
+    color: #17252A; }
+  #contact .email a:visited {
+    color: #2b7a78; }
+
+#footer {
+  background-color: #17252A;
+  color: #FEFFFF; }
+  #footer img {
+    height: 5em;
+    width: 5em; }
+  #footer .lead {
+    font-size: 1.5em;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto; }
+  #footer .icon-row {
+    font-size: 2em;
+    color: #3aafa9;
+    display: block; }
+    #footer .icon-row .list-inline {
+      margin: auto; }
+      #footer .icon-row .list-inline a:link {
+        color: #DEF2F1; }
+      #footer .icon-row .list-inline a:visited {
+        color: #3aafa9; }
+
+.contact-card {
+  opacity: 0.98;
+  min-height: 140px; }
+
+.contact-card img {
+  left: 0;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 15; }
+
+.contact-card-block {
+  left: 0;
+  padding: 0 30px 0 175px;
+  position: absolute;
+  top: 0;
+  z-index: 20; }
